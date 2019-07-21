@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BranchGrowthActivity">
+
+    <TextView
+        android:id="@+id/bTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BRANCH GROWTH AND REALIZATION"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:paddingTop="30dp"
+
+        />
+
+    <TextView
+        android:background="@drawable/customized_textview"
+        android:textColor="#FEFEFE"
+        android:textStyle="bold"
+        android:id="@+id/bUsername"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bTxt"
+        android:layout_marginTop="0dp"
+
+        android:paddingTop="25dp"
+        android:text="User Name"
+
+        android:textSize="15dp" />
+
+    <TextView
+        android:background="@drawable/customized_textview"
+        android:textColor="#FEFEFE"
+        android:textStyle="bold"
+        android:paddingTop="25dp"
+        android:id="@+id/voName"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bTxt"
+        android:layout_toRightOf="@+id/bUsername"
+        android:text="Village Officer Name"
+        android:textSize="15dp"
+
+        android:layout_marginLeft="10dp"
+        />
+    <TextView
+        android:background="@drawable/customized_textview"
+        android:textColor="#FEFEFE"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="25dp"
+        android:id="@+id/growth"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bTxt"
+        android:layout_toRightOf="@+id/voName"
+        android:text="Growth"
+        android:textSize="15dp"
+
+        android:layout_marginLeft="10dp"
+        />
+    <TextView
+        android:background="@drawable/customized_textview"
+        android:textColor="#FEFEFE"
+        android:textStyle="bold"
+        android:paddingTop="25dp"
+
+        android:id="@+id/realization"
+        android:layout_width="57dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bTxt"
+        android:layout_toRightOf="@+id/growth"
+        android:text="Realization"
+        android:textSize="15dp"
+
+        android:layout_marginLeft="10dp"
+        />
+
+
+    <ListView
+
+
+        android:id="@+id/brListView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_below="@+id/realization"
+        android:layout_marginTop="15dp">
+
+    </ListView>
+
+
+    <Button
+        android:background="@drawable/button_background"
+        android:textAlignment="center"
+        android:textColor="#FEFEFE"
+        android:id="@+id/sGrowth"
+        android:layout_below="@+id/brListView"
+        android:layout_marginTop="20dp"
+        android:text="Summation of Growth :"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:onClick="growthCalc"
+        />
+
+
+    <TextView
+        android:layout_toRightOf="@+id/sGrowth"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:id="@+id/sGrowthText"
+        android:layout_below="@+id/brListView"
+        android:layout_marginTop="20dp"
+        android:text="Display Here"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_height="50dp" />
+
+
+    <Button
+        android:background="@drawable/button_background"
+        android:textAlignment="center"
+        android:textColor="#FEFEFE"
+        android:id="@+id/sumRealization"
+        android:layout_below="@+id/sGrowth"
+        android:layout_marginTop="20dp"
+        android:text="Summation of Realization:"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:onClick="realizationCalc"
+        />
+
+
+    <TextView
+        android:layout_toRightOf="@+id/sGrowth"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:id="@+id/rText"
+        android:layout_below="@+id/sGrowth"
+        android:layout_marginTop="20dp"
+        android:text="Display Here"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_height="50dp" />
+
+
+
+    <Button
+        android:id="@+id/btBack"
+        android:layout_marginTop="30dp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/sumRealization"
+        android:background="@drawable/button_background2"
+        android:layout_centerHorizontal="true"
+        android:text="Back"
+        android:textSize="18sp"
+        android:textColor="#FEFEFE"
+        android:onClick="backb"
+        />
+
+</RelativeLayout>

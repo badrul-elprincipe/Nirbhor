@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:text="Please click next"
+        android:inputType="textPersonName"
+
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textStyle="italic"
+
+        />
+
+
+
+
+
+
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:text="Next"
+        android:background="@drawable/button_background2"
+        android:textColor="#FEFEFE"
+        android:onClick="storeData"
+        />
+    <Button
+        android:id="@+id/bt2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:text="Next"
+        android:background="@drawable/button_background2"
+        android:onClick="stroreNew"
+        android:textColor="#FEFEFE" />
+
+
+
+
+
+    <Button
+        android:id="@+id/bt3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:text="Next"
+        android:background="@drawable/button_background2"
+        android:textColor="#FEFEFE"
+        android:onClick="change"
+        />
+
+
+
+
+</RelativeLayout>

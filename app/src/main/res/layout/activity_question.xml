@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuestionActivity">
+    <TextView
+        android:id="@+id/dTxt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="QUESTION ENQUERY"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:layout_marginTop="30dp"/>
+
+    <android.support.v7.widget.AppCompatSpinner
+        android:id="@+id/spinner"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/dTxt"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        >
+    </android.support.v7.widget.AppCompatSpinner>
+
+    <TextView
+        android:background="@drawable/customized_textview"
+        android:textColor="#FEFEFE"
+        android:textStyle="bold"
+
+        android:paddingTop="25dp"
+        android:id="@+id/uName"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/spinner"
+
+        android:text="User"
+        android:textSize="15dp"
+
+        android:layout_marginLeft="10dp"
+        />
+
+    <TextView
+
+        android:background="@drawable/customized_textview"
+        android:textColor="#FEFEFE"
+        android:textStyle="bold"
+        android:paddingTop="25dp"
+
+        android:id="@+id/pName"
+        android:layout_width="57dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinner"
+        android:layout_toRightOf="@+id/uName"
+        android:text="PO"
+        android:textSize="15dp"
+
+        android:layout_marginLeft="10dp"
+        />
+    <TextView
+
+        android:background="@drawable/customized_textview"
+        android:textColor="#FEFEFE"
+        android:textStyle="bold"
+
+        android:paddingTop="25dp"
+        android:id="@+id/answer"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinner"
+        android:layout_toRightOf="@+id/pName"
+        android:text="Anwer"
+        android:textSize="15dp"
+
+        android:layout_marginLeft="10dp"
+        />
+
+    <ListView
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/answer"
+        android:id="@+id/poListView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+
+    </ListView>
+
+    <Button
+        android:background="@drawable/button_background2"
+        android:textAlignment="center"
+        android:textColor="#FEFEFE"
+        android:id="@+id/inspect"
+        android:layout_below="@+id/poListView"
+        android:layout_marginTop="20dp"
+        android:text="Need to Inspect"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:onClick="inspect"
+
+        />
+
+
+    <TextView
+        android:layout_toRightOf="@+id/inspect"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:id="@+id/sGrowthText"
+        android:layout_below="@+id/poListView"
+        android:layout_marginTop="20dp"
+        android:text="Display Here"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_height="50dp" />
+
+</RelativeLayout>

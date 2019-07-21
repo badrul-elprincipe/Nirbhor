@@ -1,0 +1,12 @@
+Name,Yearlyincome,PreviousLoanRecord,FamilyMember,Character,CriminalRecord,PO'sOpinion
+Fatema,100000,Positive,4,Moderate,None,Yes
+Asia,50000,Moderate,6,Best,None,Yes
+Rabeya,150000,Positive,3,Bad,None,Yes
+Hasina,200000,Bad,7,Good,None,Yes
+Khaleda,900000,Excellent,4,Good,None,Yes
+Aysha,100000,Good,3,Good,None,Yes
+Jorina,110000,Positive,7,Good,None,Yes
+Mikhat,30000,Bad,6,Bad,Yes,Yes
+Nowshin,10000,Bad,5,Bad,Yes,Yes
+Sahira,15000,Bad,4,Bad,Yes,Yes
+Malita,20000,Bad,9,Bad,Yes,Yes

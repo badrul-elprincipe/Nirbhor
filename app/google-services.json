@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "309623538847",
+    "firebase_url": "https://bracexel.firebaseio.com",
+    "project_id": "bracexel",
+    "storage_bucket": "bracexel.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:309623538847:android:0aacfb2c25d79c07",
+        "android_client_info": {
+          "package_name": "com.badrul.user.bracexel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "309623538847-j0kjbm7toemfn3h4329otno1q3uo0fet.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.badrul.user.bracexel",
+            "certificate_hash": "97bc7e8d95daa681f7a033d566836f06228df676"
+          }
+        },
+        {
+          "client_id": "309623538847-di72tp02qfinj8g8v7k17bb7k74v44mo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5jyHx9N2wgaAlNvDuaVoLVNYH88bEi7g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "309623538847-di72tp02qfinj8g8v7k17bb7k74v44mo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
